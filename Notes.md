@@ -37,3 +37,7 @@
     - Vector: a number with direction(e.g. wind speed and direction)
     - Matrix: a 2-dimensional array of numbers
     - Tensor: an n-dimensional array of numbers (when n can be any number, a 0-dimensional tensor is a scalar, a 1-dimensional tensor is a vector)
+
+15-01-2024
+- tf.random.set_seed(42): this sets random seed at global level
+- tf.random.shuffle(not_shuffled, seed=42): this sets random seed at operational level i.e. only for specific operation.
