@@ -41,3 +41,13 @@
 15-01-2024
 - tf.random.set_seed(42): this sets random seed at global level
 - tf.random.shuffle(not_shuffled, seed=42): this sets random seed at operational level i.e. only for specific operation.
+
+
+17-01-2024
+| Attribute | Meaning | Code |
+| --- | --- | --- |
+| Shape | The length(number of elements) of each of the dimensions of a tensor. | tensor.shape | 
+| Rank | The number of tensor dimensions. A scalar has rank 0, a vector has rank 1, a matrix is rank 2, a tensor has rank n | tensor.ndim |
+| Axis or dimension | A particular dimension of a tensor | tensor[0], tensor[:. 1]...|
+| Size | The total number of items in the tensor | tf.size(tensor) |
+ 
