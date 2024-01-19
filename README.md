@@ -51,3 +51,6 @@
 | Axis or dimension | A particular dimension of a tensor | tensor[0], tensor[:. 1]...|
 | Size | The total number of items in the tensor | tf.size(tensor) |
  
+
+19-01-2024
+- Matrix multiplication is called as dot product i.e elements of rows get multiplied with columns
