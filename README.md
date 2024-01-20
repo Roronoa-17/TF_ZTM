@@ -54,3 +54,6 @@
 
 19-01-2024
 - Matrix multiplication is called as dot product i.e elements of rows get multiplied with columns
+
+20-01-2024
+- tf.tensordot(a, b, axes) :- Tensordot (also known as tensor contraction) sums the product of elements from a and b over the indices specified by a_axes and b_axes.
