@@ -57,3 +57,15 @@
 
 20-01-2024
 - tf.tensordot(a, b, axes) :- Tensordot (also known as tensor contraction) sums the product of elements from a and b over the indices specified by a_axes and b_axes.
+
+21-01-2024
+(Neural Network Regression with TensorFlow)
+- What we're going to cover
+    - Architecture of a neural network regression model
+    - Input shapes and output shapes of a regression model (features and lables)
+    - Creating custom data to view and fit
+    - Steps in modelling
+        - Creating a model, compiliing a model, fitting a model, evaluating a model
+    - Different evaluation methods
+    - Saving and loading models
+    
