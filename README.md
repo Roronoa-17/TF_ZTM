@@ -69,3 +69,11 @@
     - Different evaluation methods
     - Saving and loading models
     
+24-01-2024
+Steps in modelling with TensorFlow
+
+1. Creating a model - define the input and output layers, as well as the hidden layers of a deep learning model.
+
+2. Compiling a model - define the loss function(in other words, the function which tells our model how wrong it is) and the optimizers(tells our model how to improve the patterns its learning) and evaluation metrics(what we can use to interpret the performance of our model).
+
+3. Fitting a model - letting the model try to find patterns between X & y (features and labels).
