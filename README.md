@@ -74,6 +74,52 @@ Steps in modelling with TensorFlow
 
 1. Creating a model - define the input and output layers, as well as the hidden layers of a deep learning model.
 
-2. Compiling a model - define the loss function(in other words, the function which tells our model how wrong it is) and the optimizers(tells our model how to improve the patterns its learning) and evaluation metrics(what we can use to interpret the performance of our model).
+2. Compiling a model - define the loss function and the optimizersand evaluation metrics.
+    * Loss - how wrong your model's predictions are compared to the truth labels(you want to minimise this).
+    * Optimizer - how your model should update its internal patterns to better its predictions.
+    * Metrics - human interpretable values for how well your model is doing.
 
 3. Fitting a model - letting the model try to find patterns between X & y (features and labels).
+    * Epochs - how many times the model will go through all of the training examples.
+
+4. Evaluate the model on the test data (how reliable are our model's predictions?)
+
+
+25-01-2024
+**Improving our model**
+
+We can improve our model, by altering the steps we took to create a model.
+
+1. **Creating a model** - here we might add more layers, increase the number of hidden units (all called neurons) within each of the hidden layers, change the activation function of each layer.
+
+2. **Compiling a model** - here we might change the optimization funciton or perhaps the **learning rate** of the optimization function.
+ 
+3. **Fitting a model** - here we might fit a model for more **epochs** (leave it training for longer) or on more data (give the model more examples to learn from).
+
+
+**Common way to improve a deep learning model:**
+- Adding layers
+- Increase the number of hidden units
+- Change the activation functions
+- Change the optimization function
+- **Change the learning rate**
+- Fitting on more data
+- Fitting for longer
+
+
+**Evaluating a model**
+When it comes to evaluation there are 3 words you should memorize:
+`Visualize, visualize , visualize`
+
+It's good idea to visualize:
+* The data - what data are we working with? What does it look like?
+* The model itself - what does our model look like?
+* The training of a model - how does a model perform while it learns?
+* The predictions of the model - how do the predictions of amodel line up against the ground truth (the original labels)?
+
+
+![Alt text](image.png)
+
+* Total params - total number of parameters in the model.
+* Trainable parameters - these are the parameters(patterns) the model can update as it trains.
+* Non-trainable params - these parameters aren't updated during training (this is typical when you bring in already learn patterns or parameters from other models during transfer learning)
