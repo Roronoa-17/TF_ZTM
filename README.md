@@ -123,3 +123,9 @@ It's good idea to visualize:
 * Total params - total number of parameters in the model.
 * Trainable parameters - these are the parameters(patterns) the model can update as it trains.
 * Non-trainable params - these parameters aren't updated during training (this is typical when you bring in already learn patterns or parameters from other models during transfer learning)
+
+
+26-01-2024
+- There are two main formats we can save our model's too:
+1. The SavedModel format
+2. The HFF5 (.h5)
