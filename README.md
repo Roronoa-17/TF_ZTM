@@ -129,3 +129,9 @@ It's good idea to visualize:
 - There are two main formats we can save our model's too:
 1. The SavedModel format
 2. The HFF5 (.h5)
+
+04-02-2024
+| Scaling type | What it does | Scikit-Learn Function | When to use |
+| --- | --- | --- | --- |
+| Scale  (also referred to as normalisation) | Converts all values to between 0 and 1 while preserving the original distribution | MinMaxScaler | Use as default scaler with neural networks.|
+| Standardization | Removes the mean and divides each value by the standard deviation. | StandardScaler | Transform a feature to have close to normal distribution (caution: this reduces the effect of outliers). |
