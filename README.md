@@ -135,3 +135,16 @@ It's good idea to visualize:
 | --- | --- | --- | --- |
 | Scale  (also referred to as normalisation) | Converts all values to between 0 and 1 while preserving the original distribution | MinMaxScaler | Use as default scaler with neural networks.|
 | Standardization | Removes the mean and divides each value by the standard deviation. | StandardScaler | Transform a feature to have close to normal distribution (caution: this reduces the effect of outliers). |
+
+
+06-02-2024
+** Neural Network Classificaiton in TensorFlow**
+
+What we're going to cover
+* Architecture of ea neural network classifacation model
+* Input shapes and output shapes of a classification model (features and labels)
+* Creating custom data to view and fit
+* Steps in modelling
+    - Creating a model, compiling a model, fitting a model, evaluating a model
+* Different classification evaluation method
+* Saving and loading models
