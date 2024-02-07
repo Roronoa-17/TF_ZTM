@@ -148,3 +148,13 @@ What we're going to cover
     - Creating a model, compiling a model, fitting a model, evaluating a model
 * Different classification evaluation method
 * Saving and loading models
+
+
+07-02-2024
+
+A classification is where you try to classify something as one thing or another.
+
+A few types of classification problems:
+* Binary classification
+* Multiclass classification
+* Multilabel classification
