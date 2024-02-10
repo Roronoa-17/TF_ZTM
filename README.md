@@ -158,3 +158,14 @@ A few types of classification problems:
 * Binary classification
 * Multiclass classification
 * Multilabel classification
+
+
+10-02-2024
+
+To find the ideal learning rate (the learning rate where the loss decreases the most during training) we're going to use the following steps:
+
+* A learning rate **callback** - you can think of a callback as an extra piece of functionality, you can add to your *while* its training.
+* Another model (we could use the same one as above, but we're practicing building models here)
+* A modified loss curves plot.
+
+**Learning rate scheduler** - At the beginning of every epoch, this callback gets the updated learning rate value from schedule function provided at __init__, with the current epoch and current learning rate, and appliees the updated learning rate on the optimizer.
