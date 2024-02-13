@@ -169,3 +169,15 @@ To find the ideal learning rate (the learning rate where the loss decreases the 
 * A modified loss curves plot.
 
 **Learning rate scheduler** - At the beginning of every epoch, this callback gets the updated learning rate value from schedule function provided at __init__, with the current epoch and current learning rate, and appliees the updated learning rate on the optimizer.
+
+
+** Classification evalution methods **
+
+| Metric Name | Metric Formula | Code | When to use |
+| -- | -- | -- | -- | 
+| Accuracy | Accuracy=tp+tn/tp+tn+fp+fn | tf.keras.metrics.Accuracy() or sklearn.metrics.accuracy_score() | Default metric for classification problems. Not the best for imabalanced classes. |
+| Precision | Precision=tp/tp+fp | tf.keras.metrics.Precision() or sklearn.metrics.precision_score() | Higher precision leads to less false positives. |
+| Recall | Recall=tp/tp+fn | tf.keras.metrics.Recall() or sklearn.metrics.recall_score() | Higher recall leads to less false negatives. |
+| F1-score | F1-score=2 * ((Precision * Recall) / Precision + Recall) | sklearn.metrics.f1_score() | Combination of precision and recall, usually a good overall metric for a classification model. |
+| Confusion matrix | NA | Custom funcion or sklearn.metrics.confusion_matrix() | When comparing predictions to truth labels to see where model gets confused. Can be hard to use with large numbers of classes. |  
+
