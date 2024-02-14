@@ -179,5 +179,12 @@ To find the ideal learning rate (the learning rate where the loss decreases the 
 | Precision | Precision=tp/tp+fp | tf.keras.metrics.Precision() or sklearn.metrics.precision_score() | Higher precision leads to less false positives. |
 | Recall | Recall=tp/tp+fn | tf.keras.metrics.Recall() or sklearn.metrics.recall_score() | Higher recall leads to less false negatives. |
 | F1-score | F1-score=2 * ((Precision * Recall) / Precision + Recall) | sklearn.metrics.f1_score() | Combination of precision and recall, usually a good overall metric for a classification model. |
-| Confusion matrix | NA | Custom funcion or sklearn.metrics.confusion_matrix() | When comparing predictions to truth labels to see where model gets confused. Can be hard to use with large numbers of classes. |  
+| Confusion matrix | NA | Custom funcion or sklearn.metrics.confusion_matrix() | When comparing predictions to truth labels to see where model gets confused. Can be hard to use with large numbers of classes. |
+
+
+### Anatomy of a confusion matrix
+* True positive = model predicts 1 when truth is 1
+* True negative = model predicts 0 when truth is 0
+* False positive = model predicts 1 when truth is 0
+* False negative = model predicts 0 when truth is 1
 
