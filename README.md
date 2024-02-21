@@ -188,3 +188,20 @@ To find the ideal learning rate (the learning rate where the loss decreases the 
 * False positive = model predicts 1 when truth is 0
 * False negative = model predicts 0 when truth is 1
 
+----------------------------------------Classification Completed---------------------------------------------------------
+
+
+**Computer Vision with Tensorflow**
+
+What we're going to cover
+* Getting a dataset to work with 
+* Architecture of a convolutional neural network (CNN) with TensorFlow
+* An end-to-end binary image classification problem
+* Steps in modelling with CNNs
+    * Creating a CNN, compiling a model, fitting a model, evaluating a model
+* An end-to-end multi=class image classification problem
+* Making predictions on our own custom images.
+
+
+*Computer Vision*:- Computer vision is the practice of writing algorithms which can discover patterns is visual data. Such as the camera of a self-driving car recognizing the car in front.
+
