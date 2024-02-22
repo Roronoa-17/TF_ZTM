@@ -205,3 +205,12 @@ What we're going to cover
 
 *Computer Vision*:- Computer vision is the practice of writing algorithms which can discover patterns is visual data. Such as the camera of a self-driving car recognizing the car in front.
 
+
+Breakdown of Conv2D layer
+
+| Hyperparameter name | What does it do? | Typical values |
+| -- | -- | -- |
+| Filters | Decides how many filters should pass over an input tensor (e.g. sliding windows over an image). | 10, 32, 64, 128 (higher values lead to more complex models) |
+| Kernel size (also called filter size) | Determines the shape of the filters (sliding windows) over the output. | 3, 5, 7 (lowes values learn smaller features, higher values learn larger features) |
+| Padding | Pads the target tensor with zeroes (if "same") to preserve input shape. Or leaves in the target tensor as is (if "valid), lowering output shape. | "same" or "valid" |
+| Strides | The number of steps a filter takes across an image at a time (e.g. if strides=1, a filter moves across an image 1 pixel at a time). | 1(default), 2 |
