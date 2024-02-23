@@ -205,7 +205,7 @@ What we're going to cover
 
 *Computer Vision*:- Computer vision is the practice of writing algorithms which can discover patterns is visual data. Such as the camera of a self-driving car recognizing the car in front.
 
-
+22-02-2024
 Breakdown of Conv2D layer
 
 | Hyperparameter name | What does it do? | Typical values |
@@ -214,3 +214,24 @@ Breakdown of Conv2D layer
 | Kernel size (also called filter size) | Determines the shape of the filters (sliding windows) over the output. | 3, 5, 7 (lowes values learn smaller features, higher values learn larger features) |
 | Padding | Pads the target tensor with zeroes (if "same") to preserve input shape. Or leaves in the target tensor as is (if "valid), lowering output shape. | "same" or "valid" |
 | Strides | The number of steps a filter takes across an image at a time (e.g. if strides=1, a filter moves across an image 1 pixel at a time). | 1(default), 2 |
+
+
+* Max Pooling : Downsamples the input representation by taking the maximum value over the window defined by *pool_size* for each dimension along the features axis. The window is shifted by *strides* in each dimension. The resulting output when using "valid" padding option has a shape(number of rows or columns) of: `output_shape=(input_shape - pool_size + 1)/strides`
+
+The resulting output shape when using the "same" padding option is:
+`output_shape=input_shape/strides`
+
+For example, for stride=(1,1) and padding="valid"
+
+
+23-04-2024
+Data Augmentation :- Data augmentation is the process of altering our training data, leading it to have more diversity and in turn allowing our models to learn more generalizable (hopefully) patterns. Altering might mean adjusting the rotation of an image, flipping it, cropping it or something similar.
+
+
+**Improving a model**
+| Method to improve a model (reduce overfitting) | What does it do? |
+| -- | -- |
+| More data | Gives a model more of a chance to learn patterns between samples (eg. if a model is performing poorly on images of pizza, show it more images of pizza) |
+| Data augmentation | Increase the diversity of your training dataset without collecting more data (eg. take your photos of pizza and randomly rotate them 30 degree). Increased diversity forces a model to learn more generalizable patterns. |
+| Better data | Not all data samples are created equally. Removing poor smaples from or adding better samples to your dataset can improve your model's performance. |
+| Use transfer learning | Take a model's pre-learned patterns from one problem and tweak them to suit your own problem. For example, take a model trained on pictures of cars to recognise pictures of trucks. |
