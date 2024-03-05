@@ -235,3 +235,6 @@ Data Augmentation :- Data augmentation is the process of altering our training d
 | Data augmentation | Increase the diversity of your training dataset without collecting more data (eg. take your photos of pizza and randomly rotate them 30 degree). Increased diversity forces a model to learn more generalizable patterns. |
 | Better data | Not all data samples are created equally. Removing poor smaples from or adding better samples to your dataset can improve your model's performance. |
 | Use transfer learning | Take a model's pre-learned patterns from one problem and tweak them to suit your own problem. For example, take a model trained on pictures of cars to recognise pictures of trucks. |
+
+05-03-2024
+Learned about TensorFlow SSD
