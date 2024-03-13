@@ -238,3 +238,20 @@ Data Augmentation :- Data augmentation is the process of altering our training d
 
 05-03-2024
 Learned about TensorFlow SSD
+
+
+13-03-2024
+Transfer Learning started
+
+**What is transfer learning?**
+It is a technique where a model trained on one task is reused or adapted as the starting point for training a model on different but related task. It leverages knowledge gained from the source task to improve learning and performance on the target task especially when the target task has limited labeled data available.
+
+**Why use transfer learning?**
+* Can leverage an existing neural network architecture proven to work on problems similar to our own.
+* Can leverage a working network architecture which has already learned patterns on similar data to our own (often results in great results in great results with less data)
+
+**What we're going to cover**
+* Introduce transfer learning with TensorFlow
+* Using a small dataset to experiment faster (10% of training samples)
+* Building a transfer learning feature extraction model with TensorFlow Hub
+* Use TensorBoard to track modelling experiments and results
