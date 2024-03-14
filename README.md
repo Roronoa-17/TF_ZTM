@@ -255,3 +255,4 @@ It is a technique where a model trained on one task is reused or adapted as the 
 * Using a small dataset to experiment faster (10% of training samples)
 * Building a transfer learning feature extraction model with TensorFlow Hub
 * Use TensorBoard to track modelling experiments and results
+* transfer learning
