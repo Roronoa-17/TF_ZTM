@@ -255,4 +255,14 @@ It is a technique where a model trained on one task is reused or adapted as the 
 * Using a small dataset to experiment faster (10% of training samples)
 * Building a transfer learning feature extraction model with TensorFlow Hub
 * Use TensorBoard to track modelling experiments and results
-* transfer learning
+
+
+17-03-2024
+**Setting up callbacks (things to run while our model trains)
+Callbacks are extra funcitonality you can add to your models to be performed during or after training. Some of the most popular callbacks:
+
+* Tracking experiments with the TensorBoard callback
+* Model checkpoint with the ModelCheckpoint callback
+* Stopping a model from training (before it trains too long and overfits) with the EarlyStopping callback
+
+
