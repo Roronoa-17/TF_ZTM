@@ -265,4 +265,12 @@ Callbacks are extra funcitonality you can add to your models to be performed dur
 * Model checkpoint with the ModelCheckpoint callback
 * Stopping a model from training (before it trains too long and overfits) with the EarlyStopping callback
 
+**What are callbacks?**
+* Callbacks are a tool which can add helpful functionality to your models during training, evaluation or inference
+* Some popular callbacks include:
 
+| Callback name | Use case | Code |
+| -- | -- | -- |
+| TensorBoard | Log the performance of multiple models and then view and compare these models in a visual way on TensorBoard (a dashboard for inspecting neural network parameters). Helpful to compare the results of different models on your data. | tf.keras.callbacks.TensorBoard() |
+| Model checkpointing | Save your model as it trains so you can stop training if needed and come back to continue off where you lef. Helpful if training takes long time and can't be done in one sitting. | tf.keras.callbacks.ModelCheckpoint() |
+| Early stopping | Leave your model training for an arbitrary amount of time and have it stop training automatically when it ceases to improve. Helpful when you've got a large dataset and don't know how long training will take. | tf.keras.callbacks.EarlyStopping() |
