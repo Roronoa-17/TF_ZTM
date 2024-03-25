@@ -278,3 +278,9 @@ Callbacks are extra funcitonality you can add to your models to be performed dur
 
 20-03-2024
 - Learned about TensorFlow Hub and the pretrained TensorFlow model which can be used for transfer learning.
+
+23-03-2024
+## Different types of transfer learning
+- transfer learning - using an existing model with no changes what so ever.
+- "Feature extraction" transfer learning - use the prelearned patterns of an existing model (e.g. EfficientNetB0 trained on ImageNet) and adjust the output layer for your own problem (e.g. 1000 classes -> 10 classes of food)
+- "Fine-tuning" transfer learning - use the prelearned patterns of an existing model and "fine-tune" many or all of the underlying layers (including new output layers)
