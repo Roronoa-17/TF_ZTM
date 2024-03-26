@@ -284,3 +284,15 @@ Callbacks are extra funcitonality you can add to your models to be performed dur
 - transfer learning - using an existing model with no changes what so ever.
 - "Feature extraction" transfer learning - use the prelearned patterns of an existing model (e.g. EfficientNetB0 trained on ImageNet) and adjust the output layer for your own problem (e.g. 1000 classes -> 10 classes of food)
 - "Fine-tuning" transfer learning - use the prelearned patterns of an existing model and "fine-tune" many or all of the underlying layers (including new output layers)
+
+26-03-2024
+`Transfer Learning (fine tuning) started`
+
+**What we're going to cover**
+
+* Introduece fine-tuning transfer learning with TensorFlow
+* Introduce the Keras Functional API to build models
+* Using a small dataset to experiment faster (e.g. 10% of training samples)
+* Data Augmentation (making your training set more diverse without adding samples)
+* Running a series of experiments on our Food Vision data
+* Introduce the ModelCheckpoint callback to save intermediate training results
