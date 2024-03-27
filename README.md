@@ -295,4 +295,4 @@ Callbacks are extra funcitonality you can add to your models to be performed dur
 * Using a small dataset to experiment faster (e.g. 10% of training samples)
 * Data Augmentation (making your training set more diverse without adding samples)
 * Running a series of experiments on our Food Vision data
-* Introduce the ModelCheckpoint callback to save intermediate training results
+* Introduce the ModelCheckpoint callback to save intermediate training results in resumable checkpoints.
