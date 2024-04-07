@@ -300,3 +300,10 @@ Callbacks are extra funcitonality you can add to your models to be performed dur
 
 06-04-2024
 **Note**:- One of the reasons feature extraction transfer learning is named how it is because what often happens is pretrained model outputs a feature vector (a long tensor of numbers which represents the learned representation of the model on a particular sample, in our case, this is the output of the `tf.keras.layers.GlobalAveragePooling2D()` layer) which can then be used to extract patterns out of for our own specific problem.
+
+07-04-2024
+
+**Adding data augmentation right into the model**
+To add data augmentation right into our models, we can use the layers inside:
+
+* tf.keras.layers.experimental.preprocessing()
