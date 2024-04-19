@@ -320,3 +320,7 @@ To add data augmentation right into our models, we can use the layers inside:
 | TensorBord | Log the performance of multiple models and then view and compare these models in a visual way on TensorBoard (a dashboard for inspecting neural network parameters). Helpful to compare the results of different models on your data. | tf.keras.callbacks.TensorBoard() |
 | Model checkpointing | Save your model as it trains so you can stop training if needed and come back to continue off where you left. Helpful if training takes a long time and can't be done in one sitting. | tf.keras.callbacks.ModelCheckpoint() |
 | Early stopping | Leave your model training for an arbitrary amount of time and have it stop training automatically when it ceases to improve. Helpful when you've got a large dataset and don't know how long training will take. | tf.keras.callbacks.EarlyStopping() |
+
+
+19-04-2024
+- Transfer Learning in TensorFlow : Fine Tuning (part two) is completed.
