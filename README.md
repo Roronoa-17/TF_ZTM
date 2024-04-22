@@ -324,3 +324,14 @@ To add data augmentation right into our models, we can use the layers inside:
 
 19-04-2024
 - Transfer Learning in TensorFlow : Fine Tuning (part two) is completed.
+
+22-04-2024
+**Transfer Learning Part 3: Scaling Up started**
+
+What we're going to cover
+- Downloading & preparing 10% of all Food101 classes(7500+ training images)
+- Training a transfer learning feature extraction model
+- Fine-tuning our feature extraction model(Food Vision mini) to beat the original Food101 paper with only 10% of the data.
+- Evaluating Food Vision mini's predictions
+    - Finding the most wrong predictions (on the test dataset)
+- Making predictions with Food Vision mini on our own custom images
