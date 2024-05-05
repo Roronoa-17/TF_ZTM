@@ -335,3 +335,7 @@ What we're going to cover
 - Evaluating Food Vision mini's predictions
     - Finding the most wrong predictions (on the test dataset)
 - Making predictions with Food Vision mini on our own custom images
+
+
+05-05-2024
+- evaluating model's performance using confusion matrix for 101 classes of food.
