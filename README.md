@@ -339,3 +339,18 @@ What we're going to cover
 
 05-05-2024
 - evaluating model's performance using confusion matrix for 101 classes of food.
+
+10-05-2024
+
+Finding the most wrong predictions
+* A good way to inspect your model's performance is to view the wrong predictions with highest prediction probability (or highest loss)
+* Can reveal insights such as:
+    * Data issues (wrong labels, e.g. model is right, label is wrong)
+    * Confusing classes (get better/more diverse data)
+
+To find out where our model is most wring, let's write some code to find out the following:
+1. Get all of the image file paths in the test dataset using list_files() method
+2. Create a pandas DataFrame of the image filepaths, ground truth labels, predicted classes (from our model), max prediction probabilities, prediction class names, ground truth class names.
+3. Use our DataFrame to find al the wrong predictions (where the ground truth label doesn't match the prediction).
+4. Sort the DataFrame based on wrong predictions (have the highest prediciton probability predictions at the top).
+5. Visualize the images with the highest prediciton probabilities but have the wrong prediction.
