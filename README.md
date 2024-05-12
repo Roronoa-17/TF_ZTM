@@ -354,3 +354,11 @@ To find out where our model is most wring, let's write some code to find out the
 3. Use our DataFrame to find al the wrong predictions (where the ground truth label doesn't match the prediction).
 4. Sort the DataFrame based on wrong predictions (have the highest prediciton probability predictions at the top).
 5. Visualize the images with the highest prediciton probabilities but have the wrong prediction.
+
+11-05-2024
+Transfer Learning
+
+12-05-2024
+What we're going to cover:
+- TensorFlow dataset 
+- Training and fine-tuning big model with 100% data
