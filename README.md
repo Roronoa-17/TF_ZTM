@@ -362,3 +362,22 @@ Transfer Learning
 What we're going to cover:
 - TensorFlow dataset 
 - Training and fine-tuning big model with 100% data
+
+14-05-2024
+
+What is TensorFlow Datasets (TFDS)?
+TensorFlow Datasets is a place for prepared and ready-to-use machine learning datasets.
+
+* Why use TensorFlow Datasets?
+    * Load data already in tensor format
+    * Practice on well established datasets (for many different problem types)
+    * Experiment with different modelling techniques on a consistent dataset
+* Why not use TensorFlow Datasets?
+    * Datasets are static (don not change like real-world datasets)
+
+code:
+(train_data, test_data), ds_info = tfds.load(name="food101",
+                                             split=["train", "validation"],
+                                             shuffle_files=True,
+                                             as_supervised=True,
+                                             with_info=True)
