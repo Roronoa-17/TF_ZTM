@@ -381,3 +381,10 @@ code:
                                              shuffle_files=True,
                                              as_supervised=True,
                                              with_info=True)
+
+
+23-05-2024
+* `layer.name` : the human readable name of a particular layer
+* `layer.trainable`: is the layer trainable or not? (if False, the weights are frozen)
+* `layer.dtype`: the data type a layer stores its variables in
+* `layer.dtype_policy`: the data type policy a layer computes on its variables with
