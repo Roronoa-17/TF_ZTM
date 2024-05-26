@@ -388,3 +388,6 @@ code:
 * `layer.trainable`: is the layer trainable or not? (if False, the weights are frozen)
 * `layer.dtype`: the data type a layer stores its variables in
 * `layer.dtype_policy`: the data type policy a layer computes on its variables with
+
+26-05-2024
+Milestone project 1 food vision is completed
