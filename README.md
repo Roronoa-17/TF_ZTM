@@ -391,3 +391,18 @@ code:
 
 26-05-2024
 Milestone project 1 food vision is completed
+
+
+29-05-2024
+NLP in TensorFlow is started 
+
+What we're going to cover
+* Downloading and preparing a text dataset
+* How to prepare text data for modelling (tokenization and embedding)
+* Setting up multiple modelling experiments with recurrent neural networks (RNNs)
+* Building a text feature extraction model using TensorFlow Hub
+* Finding  the most wrong prediction examples
+* Using a model we've built to make predictions on text from the wild
+
+`NLP` : NLP has the goal of deriving information out of natural language (could be sequences of text or speech).
+Another common term for NLP problems is sequence to sequence problems (seq2seq).
