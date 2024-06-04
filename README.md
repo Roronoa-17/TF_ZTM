@@ -406,3 +406,21 @@ What we're going to cover
 
 `NLP` : NLP has the goal of deriving information out of natural language (could be sequences of text or speech).
 Another common term for NLP problems is sequence to sequence problems (seq2seq).
+
+
+02-06-2024
+
+Tokenization vs Embedding
+
+* Tokenization - straight mapping from token to number (can be modelled but quickly gets too big)
+
+* Embedding - richer representation of relationships between tokens (can limit size + can be learned)
+
+03-06-2024
+### Converting text into numbers
+
+When dealing with a text problem, one of the first things you'll have to do before you can build a model is to convert your text to numbers.
+
+There are a few ways to do this, namely:
+* Tokenization - direct mapping of token (a token could be a word or a character) to number
+* Embedding - create a matrix of feature vector for each token (the size of the feature vector can be defined and this embedding can be learned)
