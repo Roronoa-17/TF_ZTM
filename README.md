@@ -424,3 +424,5 @@ When dealing with a text problem, one of the first things you'll have to do befo
 There are a few ways to do this, namely:
 * Tokenization - direct mapping of token (a token could be a word or a character) to number
 * Embedding - create a matrix of feature vector for each token (the size of the feature vector can be defined and this embedding can be learned)
+
+Note:- Embedding is best to convert text into numbers and it also converts meaningfully into numbers which is machine readable.
