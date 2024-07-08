@@ -426,3 +426,7 @@ There are a few ways to do this, namely:
 * Embedding - create a matrix of feature vector for each token (the size of the feature vector can be defined and this embedding can be learned)
 
 Note:- Embedding is best to convert text into numbers and it also converts meaningfully into numbers which is machine readable.
+
+04-07-2024
+
+To recreate a model the same as a some previous model you've created you can use the `tf.keras.models.clone_model()`
